@@ -73,11 +73,7 @@ namespace connect.strava
             return JsonConvert.SerializeObject(obj, Formatting.Indented);
         }
 
-        public string GetBusinessList(string subscriptionKey, string token, string siteID, string signingSecret)
-        {
-            return File.ReadAllText("BusinessList.json");
-            return this.Get(subscriptionKey, token, siteID, signingSecret, BUSINESSLIST_URL);            
-        }
+       
 
         #endregion Public Methods
 

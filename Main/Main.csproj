@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{71865172-213F-4B47-8E1C-ACE5BAE6D87C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sage.ES.APISageOne.Console</RootNamespace>
-    <AssemblyName>Sage.ES.APISageOne.Console</AssemblyName>
+    <RootNamespace>connect.strava.Console</RootNamespace>
+    <AssemblyName>ConnectToStrava</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -23,7 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
